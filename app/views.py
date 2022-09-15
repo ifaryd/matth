@@ -14,3 +14,9 @@ def predications_lists(request):
 
 def predications_details(request):
     return render(request, 'predications-details.html')
+
+def presses_lists(request):
+    return render(request, 'presses-lists.html')
+
+def presses_details(request):
+    return render(request, 'presses-details.html')
