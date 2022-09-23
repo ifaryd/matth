@@ -63,6 +63,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'app.context_processors.getlang',
+                "django.template.context_processors.i18n",
+                "django.template.context_processors.media",
             ],
         },
     },
@@ -77,7 +80,7 @@ WSGI_APPLICATION = 'matth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'matth25v6_all.db',
     }
 }
 

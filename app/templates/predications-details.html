@@ -7,139 +7,6 @@ Prédications
 {% endblock title %}
 
 
-{% block navbar %} 
-
-<!-- ========== Navigation ========== -->
-
-<nav class="navbar navbar-default navbar-trans-dark  navbar-fixed-top navbar-static-top mega">
-    <div class="container" style="min-width: 93% !important;">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <!-- Logo -->
-        <!-- <a class="navbar-brand log" href=""><img src="{% static 'images/logo.png" alt="Definity - Logo"></a>  -->
-      </div><!-- / .navbar-header -->
-
-      <!-- Navbar Links -->
-      <div id="navbar" class="navbar-collapse collapse navr" >
-        <ul class="nav navbar-nav" style="margin-top: 0px !important;">
-          <li class="dropdown">
-            <a href="accueil"><button class="btn-text btn-small" style="width: 176px;padding-right: 2px;padding-left: 2px;margin-top: 6px; margin-right: 35px; "> philippekacou.org</button></a>
-              </li>
-          
-          <!-- Accueil -->
-          <li class="dropdown mg">
-            <a href="accueil" class="dropdown-toggle" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Accueil</a>
-          <!-- / .dropdown-menu -->
-          </li>
-          <!-- / Accueil -->
-          
-
-          <!-- Prédications -->
-          <li class="dropdown mg">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Prédications<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="predications-lists">Prédications écrites</a></li>
-              <li><a href="predications-lists">Prédications audios</a></li>
-              <li><a href="predications-lists">Prédications vidéos</a></li>
-
-            </ul>
-          </li>
-          <!-- / Prédications -->
-
-
-          <!-- Médias -->
-          <li class="dropdown mg">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Médias<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="presses-lists">Presse écrites</a></li>
-              <li><a href="emissions-radio">Emission radio</a></li>
-              <li><a href="emissions-tv">emissions-tv</a></li>
-
-            </ul>
-          </li>
-          <!-- / Médias -->
-
-
-          <!-- Galerie -->
-          <li class="dropdown mega-fw mg">
-            <a href="galeries" class="dropdown-toggle"  data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Galérie</a>
-          <!-- / .dropdown-menu -->
-          </li><!-- / Galerie -->
-
-          <!-- Ressources -->
-          <li class="dropdown mg">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Ressources<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="temoignages">Témoignages</a></li>
-              <li><a href="actualites-lists">Actualités</a></li>
-              <li><a href="pepites">Les pépites d'or</a></li>
-              <li><a href="aides">Aides pour la lectures</a></li>
-              <li><a href="logiciels">Logiciels</a></li>
-
-            </ul>
-          </li>
-          <!-- / Ressources -->
-
-           <!-- Adorations -->
-           <li class="dropdown mg">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Adorations<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="louanges">Louanges</a></li>
-              <li><a href="melodies">Mélodies</a></li>
-          
-
-            </ul>
-          </li>
-          <!-- / Adorations -->
-
-          <!-- Le monde -->
-          <li class="dropdown mega-fw mg">
-            <a href="mondes" class="dropdown-toggle"  data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Le cri de minuit dans monde</a>
-          <!-- / .dropdown-menu -->
-          </li>
-          <!-- / Le monde -->
-
-          <!-- Contacts -->
-          <li class="dropdown mg">
-            <a href="contacts" class="dropdown-toggle"  data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Contacts</a>
-          <!-- / .dropdown-menu -->
-          </li>
-          <!-- / Contacts -->
-        
-         
-        </ul>
-        <!-- / .nav .navbar-nav -->
-        
-
-        <!-- Navbar Links Right -->
-        <ul class="nav navbar-nav navbar-right" style="margin-top: 0px !important;">
-          <li class="dropdown mg">
-            <a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">FR<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="">EN</a></li>
-              <li><a href="">ES</a></li>
-              <li><a href="">PT</a></li>
-          
-
-            </ul>
-          </li>
-
-          <!-- Languages -->
-          
-          <!-- / Languages -->
-
-        </ul><!-- / .nav .navbar-nav .navbar-right -->
-
-      </div><!--/.navbar-collapse -->
-    </div><!-- / .container -->
-  </nav><!-- / .navbar -->
-{% endblock navbar %} 
 
 
 
@@ -151,9 +18,9 @@ Prédications
       <div class="row">
         <h1 class="col-sm-6">Prédications</h1>
         <ol class="col-sm-6 text-right breadcrumb">
-          <li><a href="accueil">Accueil</a></li>
-          <li><a href="predications-lists">Prédications écrites</a></li>
-          <li class="active">C’EST ICI LA VOIX DE MATTHIEU 25 :6</li>
+          <li><a href="/{{ lang }}">Accueil</a></li>
+          <li><a href="/{{ lang }}/predications-lists">Prédications écrites</a></li>
+          <li class="active">{{ predications.titre }}</li>
         </ol>
       </div>
     </div>
@@ -167,28 +34,14 @@ Prédications
     <div class="row ws-m" id="invoice">
       
       <header class="sec-heading" style="margin-bottom: 60px;">
-        <h2 class="pred-title">KACOU 1 : C’EST ICI LA VOIX DE MATTHIEU 25 :6</h2>
-        <span class="subheading lesr">(Prêché le dimanche 20 octobre 2002, à Locodjro, Abidjan – Côte d’Ivoire)</span>
+        <h2 class="pred-title">{{ predications.chapitre }} : {{ predications.titre }}</h2>
+        <span class="subheading lesr">{{ predications.sous_titre }}</span>
       </header>
 
       <div class="col-lg-12 mb-sm-50 just">
-        <p><strong>1</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
-        <p><strong>2</strong> Que Satan et ses enfants prennent l’école pastorale, instituts bibliques et internet, moi et ma maison nous resterons avec la révélation prophétique. [Ndr : L’assemblée dit : « Amen ! »]. Et après l'école pastorale, les séminaires et diplômes théologiques, quand ces hypocrites, ces fils du diable se tiennent à la chaire, ils disent : « ô Dieu ! Que je sois effacé et que Tu parles au travers de moi ! ». Vous voyez ? C'est de la confusion ! Si vous savez que Dieu peut vous effacer pour parler au travers de vous alors qu'est-ce que vous êtes allés chercher dans les écoles pastorales ?</p>
-        <p><strong>3</strong> L'école pastorale n'est rien d'autre qu'un lieu où les gens vont apprendre les techniques de manipulation psychologique. Vous voyez ? Ils étudient les réactions et comportements des gens. C'est tout cela qu'on appelle le mysticisme. Et c'est ce qu'ils cachent aux gens. [Kc.2v1-4] [Kc.57v5-8]</p>
-        <p><strong>4</strong> Bien ! La Bible déclare qu’il n’y a rien de caché qui ne sera révélé à la lumière du jour. Dieu l’a fait car le temps de rétablissement était venu mais, malheureusement, ceux pour qui cela a été fait étaient déjà ivres et ne pouvaient faire la distinction entre le bien et le mal, entre l’Esprit de Dieu et l’esprit du diable, entre la Parole de Dieu et la théologie…Et le fruit qui ressort de cela ce sont les églises catholiques, protestantes, évangéliques et branhamistes.</p>
-        <p><strong>5</strong> Et c’est à tort que ces caricatures sataniques sont appelées église, devenant du coup une malédiction pour le pays et l’objet de toute la colère de Dieu. Si bien que, lorsqu’une coupe de tourments est déversée sur un pays, les églises se pressent d’interpréter cela de sorte à affermir le méchant dans sa voie. Je ne puis m’imaginer de quels châtiments les églises seront jugées dignes au jour du jugement !</p>
-        <p><strong>6</strong> Sachez que si Dieu était le chef de ces églises, elles ne prieraient jamais ensemble avec les bouddhistes, les mahikaris, les musulmans, les féticheurs, les masques, avec des libations et des danses guerrières…</p>
-        <p><strong>7</strong> Et surtout les églises africaines se prononceraient sur ces télévisions violentes et pourries, sur ces rues princesses et princières, des journaux exposant des femmes nues, des rythmes et danses impurs, la distribution de préservatifs, le planning familial, etc. Vous voyez ? Là où le péché est légalisé, l'Église doit se prononcer. Si on distribue des préservatifs aux élèves, aux soldats et autres et que les églises ne disent rien, elles ne doivent pas non plus prier sinon ce sont elles les pires ennemies de l’Afrique et c’est ce qu’elles sont !</p>
-        <p><strong>8</strong>  Pourquoi cela ? Parce que le péché de celui qui utilise les préservatifs et les pilules est semblable au péché de celui qui avorte.</p>
-        <p><strong>9</strong> Quand des châtiments viennent sur un pays, c’est surtout contre les églises que ces châtiments sont exercés comme autrefois sur les dieux d’Égypte. Vous voyez ? Moi Kacou Philippe, esclave de Jésus-Christ, je ne vous décourage pas mais c’est en vain que vous priez. Dieu s’est suscité des serviteurs pour exercer le jugement comme Il avait suscité son serviteur Nebucadnetsar contre Israël dans le passé. N’est-ce pas Dieu qui décrète tout ce qui arrive sur la terre ? [Ndr : L’assemblée dit : « Amen ! »]. [Kc.104v28]</p>
-        <p><strong>10</strong> Comme Joseph, les noirs déportés d'Afrique et des agneaux fuyant les loups de la persécution romaine se retrouvèrent sur une nouvelle terre, l'Amérique. Dieu les bénit, et fit que leurs frères, le monde entier, se prosternent devant leurs décisions à travers l’ONU parce qu’après pharaon, le pape d’Égypte, c’était Joseph. On le voit dans le livre de la Genèse et dans Apocalypse 13. Vous voyez ?</p>
-        <p><strong>11</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
-        <p><strong>12</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
-        <p><strong>13</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
-        <p><strong>14</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
-        <p><strong>15</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
-        <p><strong>16</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
-        <p><strong>17</strong> L’Évangile du Royaume des Cieux vient toujours du Ciel à travers un ange tandis qu’il y a un autre évangile qui vient de l’abîme à travers l’école pastorale car Dieu remplit le cœur tandis que le diable remplit la tête. Rappelez-vous comment le 24 avril 1993, le son de sa voix entra en moi et que je tombai mort. Vous voyez ? C'est le diable qui a institué l'école pastorale. Car, si j'envoie quelqu'un appeler ma femme qui est en voyage au village, cet envoyé n'a d'instruction à recevoir de personne. Je suis le seul à lui dire ce qu'il doit dire à ma femme et je sais qu’elle croira en lui. [Ndr : L’assemblée dit : « Amen ! »].</p>
+        {% for verset in versets %}
+        <p><strong>{{ verset.numero }}</strong> {{ verset.contenu }}</p>
+        {% endfor %}
       </div>
       
     </div><!-- / .row -->
