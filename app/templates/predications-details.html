@@ -42,7 +42,9 @@ Prédications
         {% for verset in versets %}
         <p><strong>{{ verset.numero }}</strong> {{ verset.contenu }}</p>
         {% endfor %}
+        <h4 class="blog-section-title">{{ predications.sermon_similaire }}</h4>
       </div>
+    
       
     </div><!-- / .row -->
 
@@ -50,7 +52,7 @@ Prédications
     
     
         <div class="col-md-6 mb-sm-50">
-            <a type="" title="Télécharger"  onclick="document.title = 'KACOU 1 : C’EST ICI LA VOIX DE MATTHIEU 25 :6'; printForm()">
+            <a type="" title="Télécharger"  onclick="document.title = '{{ predications.chapitre }} : {{ predications.titre }}'; printForm()">
                 <button class="btn-ghost btn-small">Télécharger le pdf</button>
             </a>
          </div>

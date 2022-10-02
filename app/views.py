@@ -1,6 +1,7 @@
 from threading import local
 from django.shortcuts import render, redirect
 from django.core.paginator import Paginator
+from django.utils.translation import ugettext as _
 
 from . import models 
 
@@ -9,7 +10,6 @@ from . import models
 
 def accueil(request, lang):
     lang = lang
-    currentpage = ""
     return redirect('/fr-fr/')
 
 def index(request, lang):
@@ -17,7 +17,15 @@ def index(request, lang):
     currentpage = ""
     return render(request, 'index.html')
 
+def galeries(request, lang):
+    lang = lang
+    photos= models.Photos.objects.all()
+    return render(request, 'galeries.html', locals())
 
+def videos(request, lang):
+    lang = lang
+    videos = models.Videos.objects.all()[:4]
+    return render(request, 'predications-videos.html', locals())
 
 def contacts(request, lang):
     lang = lang

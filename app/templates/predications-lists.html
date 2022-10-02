@@ -16,10 +16,10 @@ Prédications
 <header class="page-title pt-small" style="margin-top: 70px;">
     <div class="container">
       <div class="row">
-        <h1 class="col-sm-6">Prédications</h1>
+        <h1 class="col-sm-6">{% trans 'Prédications' %}</h1>
         <ol class="col-sm-6 text-right breadcrumb">
-          <li><a href="/{{ lang }}">Accueil</a></li>
-          <li class="active">Prédications</li>
+          <li><a href="/{{ lang }}">{% trans 'Accueil' %}</a></li>
+          <li class="active">{% trans 'Prédications' %}</li>
         </ol>
       </div>
     </div>
@@ -67,10 +67,10 @@ Prédications
         <table class="table table-row-highlight">
           <thead>
             <tr>
-              <th>Chapitre</th>
-              <th>Titre</th>
-              <th>Télécharger</th>
-              <th>Ecouter</th>
+              <th>{% trans 'Chapitre' %}</th>
+              <th>{% trans 'Titre' %}</th>
+              <th>{% trans 'Télécharger' %}</th>
+              <th>{% trans 'Ecouter' %}</th>
             </tr>
           </thead>
           <tbody>
@@ -80,8 +80,7 @@ Prédications
               <td> <a href="{% url 'predications-details'  lang pred.numero %}" class="fot">{{ pred.titre }}</a></td>
               <td><a href="{% url 'predications-details' lang pred.numero %}" class="fot">PDF</a> </td>
               <td style="padding-top: 0px;padding-bottom: 0px;">
-                  <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/333489655&color=%23915d22&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kacou-philippe-proph-te" title="Prophète Kacou Philippe" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/kacou-philippe-proph-te/kacou-80-version-wolof" title="" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>
-              </td>
+                <iframe width="100px" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/333489655&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kacou-philippe-proph-te" title="Prophète Kacou Philippe" target="_blank" style="color: #cccccc; text-decoration: none;"></a><a href="https://soundcloud.com/kacou-philippe-proph-te/kacou-1-cest-ici-la-voix-de-matth25v6" title="Kacou 1: C&#x27;est ici la voix de Matth.25v6" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div> </td>
             </tr>
             {% endfor %}
         
