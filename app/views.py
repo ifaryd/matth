@@ -12,6 +12,7 @@ def accueil(request, lang):
     lang = lang
     return redirect('/fr-fr/')
 
+
 def index(request, lang):
     lang = lang
     currentpage = ""

@@ -20,16 +20,16 @@ Bienvenue sur le site officiel du Prophète
       <div class="hero-content-wrapper">
         <div class="hero-content">
           
-          <h1 class="hero-lead wow fadeInLeft" data-wow-duration="1.5s">Le cri de minuit<br> à retentit</h1>
-          <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Prophète Kacou Philippe</h4>
-          <a href="predications-lists" class="btn wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Les prédications</a>
+          <h1 class="hero-lead wow fadeInLeft" data-wow-duration="1.5s">{% trans 'Le cri de minuit' %}<br>{% trans ' à retentit' %}</h1>
+          <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">{% trans 'Prophète Kacou Philippe' %}</h4>
+          <a href="predications-lists" class="btn wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">{% trans 'Les prédications' %}</a>
 
         </div>
       </div>
 
       <!-- Scroller -->
       <a href="#welcome" class="scroller scroller-dark">
-        <span class="scroller-text">Défiler</span>
+        <span class="scroller-text">{% trans 'Défiler' %}</span>
         <span class="linea-basic-magic-mouse"></span>
       </a>
 
@@ -46,12 +46,12 @@ Bienvenue sur le site officiel du Prophète
       <div class="ws-l"></div>
       
       <header class="sec-heading">
-        <h2>Bienvenue sur le site officiel du Prophète KAcou Philippe</h2>
-        <span class="subheading">Les paroles de la vie éternelle aujourd'hui</span>
+        <h2>{% trans 'Bienvenue sur le site officiel du Prophète Kacou Philippe' %}</h2>
+        <span class="subheading">{% trans "Les paroles de la vie éternelle aujourd'hui" %}</span>
       </header>
 
       <div class="col-md-offset-2 col-md-8 text-center ws-m" style="padding-bottom: 50px;">
-        <p>Comme les prophètes de la Bible, en avril 1993, un homme qui n'avait jamais été dans une église reçoit en vision, la visitation d'un Ange qui le commissionne pour un Message destiné au Salut de l'humanité en accomplissement de <strong>Matth.25:6</strong>  et d' <strong>Apoc.12:14</strong>.</p>
+        <p>{% trans "Comme les prophètes de la Bible, en avril 1993, un homme qui n'avait jamais été dans une église reçoit en vision, la visitation d'un Ange qui le commissionne pour un Message destiné au Salut de l'humanité en accomplissement de " %}<strong>{% trans 'Matth.25:6' %} </strong>{% trans "  et d'" %} <strong>{% trans 'Apoc.12:14' %}</strong>.</p>
       </div>
 
       <div class="col-md-12">
@@ -76,8 +76,8 @@ Bienvenue sur le site officiel du Prophète
       <div class="row">
         
         <header class="sec-heading">
-          <h2>Actualités</h2>
-          <span class="subheading">Le message du Prophète Kacou Philippe</span>
+          <h2>{% trans 'Actualités' %}</h2>
+          <span class="subheading">{% trans 'Le message du Prophète Kacou Philippe' %}</span>
         </header>
 
         
@@ -239,8 +239,8 @@ Bienvenue sur le site officiel du Prophète
   <section id="contact" class="section contact-1">
     
     <header class="sec-heading">
-      <h2>Contactez nous</h2>
-      <span class="subheading">Vous avez une question ?</span>
+      <h2>{% trans 'Contactez nous' %}</h2>
+      <span class="subheading">{% trans 'Vous avez une question ?' %}</span>
     </header>
     
     <div class="contact-wrapper">
@@ -262,14 +262,14 @@ Bienvenue sur le site officiel du Prophète
 
                 <!-- Phone -->
                 <div class="col-sm-6 address-group">
-                  <span>Téléphone</span>
+                  <span>{% trans 'Téléphone' %}</span>
                   <a href="#">+225 07 08 000 789</a>
                   <a href="#">+225 07 74 747 430 </a>
                 </div>
 
                 <!-- Address -->
                 <div class="col-sm-5 address-group">
-                  <span>Addresse Postale</span>
+                  <span>{% trans 'Addresse Postale' %}</span>
                   <p>BP 374 Sikensi (Côte d'Ivoire)</p>
                 </div>
 
@@ -308,14 +308,14 @@ Bienvenue sur le site officiel du Prophète
 
               <!-- Name -->
               <div class="form-group">
-                <input type="text" name="name" id="name-contact-1" class="form-control validate-locally" placeholder="Entrer votre nom">
-                <label for="name-contact-1">Nom</label>
+                <input type="text" name="name" id="name-contact-1" class="form-control validate-locally" placeholder="{% trans 'Entrer votre nom' %}">
+                <label for="name-contact-1">{% trans 'Nom' %}</label>
                 <span class="pull-right alert-error"></span>
               </div>
 
               <!-- Email -->
               <div class="form-group">
-                <input type="email" name="email" id="email-contact-1" class="form-control validate-locally" placeholder="Entrer votre email">
+                <input type="email" name="email" id="email-contact-1" class="form-control validate-locally" placeholder="{% trans 'Entrer votre email' %}">
                 <label for="email-contact-1">Email</label>
                 <span class="pull-right alert-error"></span>
               </div>
@@ -326,11 +326,11 @@ Bienvenue sur le site officiel du Prophète
 
               <!-- Message -->
               <div class="form-group">
-                <textarea name="message" id="message-contact-1" class="form-control" rows="5" placeholder="Votre message"></textarea>
-                <label for="message-contact-1">Message</label>
+                <textarea name="message" id="message-contact-1" class="form-control" rows="5" placeholder="{% trans 'Votre message' %}"></textarea>
+                <label for="message-contact-1">{% trans 'Message' %}</label>
               </div>
               <div>
-                <input type="submit" class="btn pull-right" value="Envoyez">
+                <input type="submit" class="btn pull-right" value="{% trans 'Envoyez' %}">
               </div>
 
               <!-- Ajax Message -->

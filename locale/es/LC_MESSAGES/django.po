@@ -21,150 +21,150 @@ msgstr ""
 
 #: app/templates/base.html:10 app/templates/index.html:24
 msgid "Prophète Kacou Philippe"
-msgstr "Prophet Kacou Philippe"
+msgstr "Profeta Kacou Philippe"
 
 #: app/templates/base.html:10
 msgid "Portail du Ciel"
-msgstr "Heaven Portal"
+msgstr "Pórtico del Cielo"
 
 #: app/templates/base.html:87 app/templates/predications-lists.html:21
 msgid "Accueil"
-msgstr "Home"
+msgstr "Inicio"
 
 #: app/templates/base.html:95 app/templates/base.html:208
 #: app/templates/predications-lists.html:19
 #: app/templates/predications-lists.html:22
 msgid "Prédications"
-msgstr "Sermons"
+msgstr "Predicaciones"
 
 #: app/templates/base.html:97 app/templates/base.html:210
 msgid "Prédications écrites"
-msgstr "Text sermons"
+msgstr "Predicaciones escritas"
 
 #: app/templates/base.html:98 app/templates/base.html:211
 msgid "Prédications audios"
-msgstr "Audios sermons"
+msgstr "Predicaciones audios"
 
 #: app/templates/base.html:99 app/templates/base.html:212
 msgid "Prédications vidéos"
-msgstr "Videos sermons"
+msgstr "Predicaciones vídeos"
 
 #: app/templates/base.html:108
 msgid "Médias"
-msgstr "Medias"
+msgstr "Prensa"
 
 #: app/templates/base.html:110 app/templates/base.html:228
 msgid "Presse écrites"
-msgstr "In the press"
+msgstr "Prensa escritas"
 
 #: app/templates/base.html:111
 msgid "Emission radio"
-msgstr "Radio"
+msgstr "Programas radiales"
 
 #: app/templates/base.html:112
 msgid "emissions-tv"
-msgstr "Tv"
+msgstr "Programas televisivos"
 
 #: app/templates/base.html:121
 msgid "Galérie"
-msgstr "Pictures"
+msgstr "Fotos"
 
 #: app/templates/base.html:127 app/templates/base.html:238
 msgid "Ressources"
-msgstr "Resources"
+msgstr "Recursos"
 
 #: app/templates/base.html:129 app/templates/base.html:239
 msgid "Témoignages"
-msgstr "Testimonies"
+msgstr "Testimonios"
 
 #: app/templates/base.html:130 app/templates/base.html:240
 #: app/templates/index.html:79
 msgid "Actualités"
-msgstr "News"
+msgstr "Actualidades"
 
 #: app/templates/base.html:131 app/templates/base.html:241
 msgid "Les pépites d'or"
-msgstr "Golden nuggets"
+msgstr "Las pepitas de oro"
 
 #: app/templates/base.html:132
 msgid "Aides pour la lectures"
-msgstr "Assitance for sermons"
+msgstr "Ayuda para leer"
 
 #: app/templates/base.html:133
 msgid "Logiciels"
-msgstr "Important software"
+msgstr "Softwares importantes"
 
 #: app/templates/base.html:141
 msgid "Adorations"
-msgstr "Worship"
+msgstr "Adoración"
 
 #: app/templates/base.html:143
 msgid "Louanges"
-msgstr "Praises"
+msgstr "Alabanza"
 
 #: app/templates/base.html:144
 msgid "Mélodies"
-msgstr "Melodies"
+msgstr "Melodías"
 
 #: app/templates/base.html:153
 msgid "Le cri de minuit dans monde"
-msgstr "The midnight cry in the world"
+msgstr "El Clamor en el mundo"
 
 #: app/templates/base.html:160
 msgid "Contacts"
-msgstr "Contacts"
+msgstr "Contactos"
 
 #: app/templates/base.html:226
 msgid "Medias"
-msgstr "Medias"
+msgstr "Prensa"
 
 #: app/templates/base.html:229
 msgid "Emissions radio"
-msgstr "Radio"
+msgstr "Programas radiales"
 
 #: app/templates/base.html:230
 msgid "Emissions TV"
-msgstr "Tv"
+msgstr "Programas televisivos"
 
 #: app/templates/base.html:231
 msgid "Autres vidéos"
-msgstr "Other videos"
+msgstr "Otros vídeos"
 
 #: app/templates/base.html:242
 msgid "Aides pour la lecture"
-msgstr "Assitance for sermons"
+msgstr "Ayuda para leer"
 
 #: app/templates/base.html:243
 msgid "Logiciels importants"
-msgstr "Importants software"
+msgstr "Softwares importantes"
 
 #: app/templates/base.html:284
 msgid "Monter"
-msgstr "Ascend"
+msgstr "Subir"
 
 #: app/templates/index.html:23
 msgid "Le cri de minuit"
-msgstr "The midnight cry"
+msgstr "El Clamor de medianoche"
 
 #: app/templates/index.html:23
 msgid " à retentit"
-msgstr "to sounds"
+msgstr "a sonar"
 
 #: app/templates/index.html:25
 msgid "Les prédications"
-msgstr "Sermons"
+msgstr "Predicaciones"
 
 #: app/templates/index.html:32
 msgid "Défiler"
-msgstr "Scroll"
+msgstr "Desplazarse"
 
 #: app/templates/index.html:49
 msgid "Bienvenue sur le site officiel du Prophète Kacou Philippe"
-msgstr "Welcome to the official website of Prophet Kacou Philippe"
+msgstr "Bienvenido al sitio web oficial del Profeta Kacou Philippe"
 
 #: app/templates/index.html:50
 msgid "Les paroles de la vie éternelle aujourd'hui"
-msgstr "The Words of Eternal Life Today"
+msgstr "Las palabras de vida eterna hoy"
 
 #: app/templates/index.html:54
 msgid ""
@@ -172,79 +172,76 @@ msgid ""
 "été dans une église reçoit en vision, la visitation d'un Ange qui le "
 "commissionne pour un Message destiné au Salut de l'humanité en "
 "accomplissement de "
-msgstr ""
-"Like the prophets of the Bible, In April 1993, a man who had never been in a "
-"church receives in a vision, the visitation of an Angel who commissions him "
-"for a Message destined to the entire earth in fulfillment of the ministry of "
+msgstr "Como los profetas de la Biblia, en abril de 1993, un hombre que jamás había estado en una iglesia recibe en visión, la visitación de un Ángel que le comisiona para un Mensaje destinado a toda la tierra en cumplimiento del ministerio de"
 
 #: app/templates/index.html:54
 msgid "Matth.25:6"
-msgstr "Matthew 25:6"
+msgstr " Mateo 25:6"
 
 #: app/templates/index.html:54
 msgid "  et d'"
-msgstr "and"
+msgstr "y"
 
 #: app/templates/index.html:54
 msgid "Apoc.12:14"
-msgstr "Revelation 12:14"
+msgstr "Apocalipsis 12:14"
 
 #: app/templates/index.html:80
 msgid "Le message du Prophète Kacou Philippe"
-msgstr "The message of Prophet Kacou Philippe"
+msgstr "El mensaje del profeta Kacou Philippe"
 
 #: app/templates/index.html:242
 msgid "Contactez nous"
-msgstr "Contacts us"
+msgstr "Contáctenos"
 
 #: app/templates/index.html:243
 msgid "Vous avez une question ?"
-msgstr "You have a question ?"
+msgstr "Tienes una pregunta ?"
 
 #: app/templates/index.html:265
 msgid "Téléphone"
-msgstr "Phone"
+msgstr "Teléfono"
 
 #: app/templates/index.html:272
 msgid "Addresse Postale"
-msgstr "Postal Address"
+msgstr "Direccion postal"
 
 #: app/templates/index.html:311
 msgid "Entrer votre nom"
-msgstr "Enter your name"
+msgstr "Introduzca su nombre"
 
 #: app/templates/index.html:312
 msgid "Nom"
-msgstr "Name"
+msgstr "Nombre"
 
 #: app/templates/index.html:318
 msgid "Entrer votre email"
-msgstr ""
+msgstr "Introduce tu correo electrónico"
 
 #: app/templates/index.html:329
 msgid "Votre message"
-msgstr "Your message"
+msgstr "Vuestro mensaje"
 
 #: app/templates/index.html:330
 msgid "Message"
-msgstr "Message"
+msgstr "Mensaje"
 
 #: app/templates/index.html:333
 msgid "Envoyez"
-msgstr "Send"
+msgstr "Enviar"
 
 #: app/templates/predications-lists.html:70
 msgid "Chapitre"
-msgstr "Chapter"
+msgstr "Capítulo"
 
 #: app/templates/predications-lists.html:71
 msgid "Titre"
-msgstr "Title"
+msgstr "Título"
 
 #: app/templates/predications-lists.html:72
 msgid "Télécharger"
-msgstr "Download"
+msgstr "Descagar"
 
 #: app/templates/predications-lists.html:73
 msgid "Ecouter"
-msgstr "Listen"
+msgstr "Escuchar"
