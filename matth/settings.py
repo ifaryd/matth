@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'matth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'matth25v6_all.db',
+        'NAME': 'matth25v6_all (1).db',
     }
 }
 

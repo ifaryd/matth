@@ -229,6 +229,7 @@ class Predications(models.Model):
     chapitre = models.CharField(blank=True, null=True, max_length=300)
     couverture = models.TextField(blank=True, null=True)
     sermon_similaire = models.TextField(blank=True, null=True)
+    lien_audio_cloud = models.TextField(blank=True, null=True)
     langue_id =  models.ForeignKey('Langues', db_column='langue_id',  on_delete=models.CASCADE)
     created_at = models.DateTimeField(blank=True, null=True)
     updated_at = models.DateTimeField(blank=True, null=True)

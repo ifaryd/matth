@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 01:48+0000\n"
+"POT-Creation-Date: 2022-10-13 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,17 +27,20 @@ msgstr "Profeta Kacou Philippe"
 msgid "Portail du Ciel"
 msgstr "Pórtico del Cielo"
 
-#: app/templates/base.html:87 app/templates/predications-lists.html:21
+#: app/templates/base.html:87 app/templates/predications-details.html:21
+#: app/templates/predications-lists.html:21
 msgid "Accueil"
 msgstr "Início"
 
 #: app/templates/base.html:95 app/templates/base.html:208
+#: app/templates/predications-details.html:19
 #: app/templates/predications-lists.html:19
 #: app/templates/predications-lists.html:22
 msgid "Prédications"
 msgstr "Pregações"
 
 #: app/templates/base.html:97 app/templates/base.html:210
+#: app/templates/predications-details.html:22
 msgid "Prédications écrites"
 msgstr "Pregações escritas"
 
@@ -110,7 +113,7 @@ msgstr "Melodias"
 msgid "Le cri de minuit dans monde"
 msgstr "O Clamor no mundo"
 
-#: app/templates/base.html:160
+#: app/templates/base.html:160 app/templates/base.html:250
 msgid "Contacts"
 msgstr "Contactos"
 
@@ -137,6 +140,24 @@ msgstr "Assistência para leitura"
 #: app/templates/base.html:243
 msgid "Logiciels importants"
 msgstr "Softwares importantes"
+
+#: app/templates/base.html:251
+#| msgid "Téléphone"
+msgid "Téléphone Mobile"
+msgstr "Telefone"
+
+#: app/templates/base.html:252 app/templates/base.html:253
+msgid "Apôtre"
+msgstr "Apóstolo"
+
+#: app/templates/base.html:256
+#| msgid "Addresse Postale"
+msgid "Adresse postale"
+msgstr "Endereço postal"
+
+#: app/templates/base.html:257
+msgid "Côte d'Ivoire"
+msgstr "Costa do Marfim"
 
 #: app/templates/base.html:284
 msgid "Monter"
@@ -172,7 +193,10 @@ msgid ""
 "été dans une église reçoit en vision, la visitation d'un Ange qui le "
 "commissionne pour un Message destiné au Salut de l'humanité en "
 "accomplissement de "
-msgstr "Como os profetas da Bíblia, em abril de 1993, um homem que nunca havia estado em uma igreja recebeu em visão a visita de um Anjo que o comissionou para uma Mensagem destinada à Salvação da humanidade em cumprimento de "
+msgstr ""
+"Como os profetas da Bíblia, em abril de 1993, um homem que nunca havia "
+"estado em uma igreja recebeu em visão a visita de um Anjo que o comissionou "
+"para uma Mensagem destinada à Salvação da humanidade em cumprimento de "
 
 #: app/templates/index.html:54
 msgid "Matth.25:6"

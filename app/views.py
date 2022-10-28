@@ -1,4 +1,5 @@
 from threading import local
+from django.http import request
 from django.shortcuts import render, redirect
 from django.core.paginator import Paginator
 from django.utils.translation import ugettext as _
@@ -12,6 +13,8 @@ def accueil(request, lang):
     lang = lang
     return redirect('/fr-fr/')
 
+def start(request):
+    return redirect('/fr-fr/')
 
 def index(request, lang):
     lang = lang
