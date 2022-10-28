@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-13 17:21+0000\n"
+"POT-Creation-Date: 2022-10-28 11:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,10 @@ msgstr "Profeta Kacou Philippe"
 msgid "Portail du Ciel"
 msgstr "Pórtico del Cielo"
 
-#: app/templates/base.html:87 app/templates/predications-details.html:21
+#: app/templates/base.html:87 app/templates/contacts.html:19
+#: app/templates/galeries.html:19 app/templates/predications-details.html:21
 #: app/templates/predications-lists.html:21
+#: app/templates/predications-videos.html:22
 msgid "Accueil"
 msgstr "Inicio"
 
@@ -36,6 +38,8 @@ msgstr "Inicio"
 #: app/templates/predications-details.html:19
 #: app/templates/predications-lists.html:19
 #: app/templates/predications-lists.html:22
+#: app/templates/predications-videos.html:20
+#: app/templates/predications-videos.html:23
 msgid "Prédications"
 msgstr "Predicaciones"
 
@@ -49,6 +53,7 @@ msgid "Prédications audios"
 msgstr "Predicaciones audios"
 
 #: app/templates/base.html:99 app/templates/base.html:212
+#: app/templates/predications-videos.html:37
 msgid "Prédications vidéos"
 msgstr "Predicaciones vídeos"
 
@@ -142,7 +147,6 @@ msgid "Logiciels importants"
 msgstr "Softwares importantes"
 
 #: app/templates/base.html:251
-#| msgid "Téléphone"
 msgid "Téléphone Mobile"
 msgstr "Teléfono"
 
@@ -151,7 +155,6 @@ msgid "Apôtre"
 msgstr "Apóstol"
 
 #: app/templates/base.html:256
-#| msgid "Addresse Postale"
 msgid "Adresse postale"
 msgstr "Direccion postal"
 
@@ -162,6 +165,66 @@ msgstr "Costa de Marfil"
 #: app/templates/base.html:284
 msgid "Monter"
 msgstr "Subir"
+
+#: app/templates/contacts.html:17
+msgid "Nous contacter"
+msgstr "Contáctenos"
+
+#: app/templates/contacts.html:20
+msgid "contacts"
+msgstr "Contactos"
+
+#: app/templates/contacts.html:29 app/templates/index.html:242
+msgid "Contactez nous"
+msgstr "Contáctenos"
+
+#: app/templates/contacts.html:30 app/templates/index.html:243
+msgid "Vous avez une question ?"
+msgstr "Tienes una pregunta ?"
+
+#: app/templates/contacts.html:52 app/templates/index.html:265
+msgid "Téléphone"
+msgstr "Teléfono"
+
+#: app/templates/contacts.html:59 app/templates/index.html:272
+msgid "Addresse Postale"
+msgstr "Direccion postal"
+
+#: app/templates/contacts.html:98 app/templates/index.html:311
+msgid "Entrer votre nom"
+msgstr "Introduzca su nombre"
+
+#: app/templates/contacts.html:99 app/templates/index.html:312
+msgid "Nom"
+msgstr "Nombre"
+
+#: app/templates/contacts.html:105 app/templates/index.html:318
+msgid "Entrer votre email"
+msgstr "Introduce tu correo electrónico"
+
+#: app/templates/contacts.html:116 app/templates/index.html:329
+msgid "Votre message"
+msgstr "Vuestro mensaje"
+
+#: app/templates/contacts.html:117 app/templates/index.html:330
+msgid "Message"
+msgstr "Mensaje"
+
+#: app/templates/contacts.html:120 app/templates/index.html:333
+msgid "Envoyez"
+msgstr "Enviar"
+
+#: app/templates/galeries.html:17 app/templates/galeries.html:20
+msgid "Galeries"
+msgstr "Galerías"
+
+#: app/templates/galeries.html:29
+msgid "Galeries Photos"
+msgstr "Galerías de fotos"
+
+#: app/templates/galeries.html:30
+msgid "Quelques images du message"
+msgstr "Algunas imágenes del mensaje."
 
 #: app/templates/index.html:23
 msgid "Le cri de minuit"
@@ -215,46 +278,6 @@ msgstr "Apocalipsis 12:14"
 msgid "Le message du Prophète Kacou Philippe"
 msgstr "El mensaje del profeta Kacou Philippe"
 
-#: app/templates/index.html:242
-msgid "Contactez nous"
-msgstr "Contáctenos"
-
-#: app/templates/index.html:243
-msgid "Vous avez une question ?"
-msgstr "Tienes una pregunta ?"
-
-#: app/templates/index.html:265
-msgid "Téléphone"
-msgstr "Teléfono"
-
-#: app/templates/index.html:272
-msgid "Addresse Postale"
-msgstr "Direccion postal"
-
-#: app/templates/index.html:311
-msgid "Entrer votre nom"
-msgstr "Introduzca su nombre"
-
-#: app/templates/index.html:312
-msgid "Nom"
-msgstr "Nombre"
-
-#: app/templates/index.html:318
-msgid "Entrer votre email"
-msgstr "Introduce tu correo electrónico"
-
-#: app/templates/index.html:329
-msgid "Votre message"
-msgstr "Vuestro mensaje"
-
-#: app/templates/index.html:330
-msgid "Message"
-msgstr "Mensaje"
-
-#: app/templates/index.html:333
-msgid "Envoyez"
-msgstr "Enviar"
-
 #: app/templates/predications-lists.html:70
 msgid "Chapitre"
 msgstr "Capítulo"
@@ -270,3 +293,7 @@ msgstr "Descagar"
 #: app/templates/predications-lists.html:73
 msgid "Ecouter"
 msgstr "Escuchar"
+
+#: app/templates/predications-videos.html:38
+msgid "Des vidéos du Prophète KACOU Philippe"
+msgstr "Videos del Profeta KACOU Philippe"
