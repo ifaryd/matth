@@ -1,0 +1,51 @@
+.fot{
+    list-style-type: none !important;
+    color: #fff !important;
+}
+
+.fott{
+    list-style-type: none !important;
+    color: #777 !important;
+}
+
+li.mg{
+    margin-top: 10px !important;
+}
+
+.acti{
+    color: #333 !important;
+}
+
+.newsletter-widget{
+    color: #fff !important;
+}
+
+@media (max-width: 700px){
+    .table thead {
+    display: none;
+    }
+    
+    .table tr{
+    display: block;
+    margin-bottom: 40px;
+    }
+    
+    .table td {
+    display: block;
+    text-align: left;
+    }
+    
+    .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    }
+    .section {
+        padding-top: 48px;
+    }
+    .page-title {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    }

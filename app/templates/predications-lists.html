@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+Prédications
+{% endblock title %}
+
+
+
+
+
+
+{% block content %}
+
+<header class="page-title pt-small" style="margin-top: 70px;">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-sm-6">{% trans 'Prédications' %}</h1>
+        <ol class="col-sm-6 text-right breadcrumb">
+          <li><a href="/{{ lang }}">{% trans 'Accueil' %}</a></li>
+          <li class="active">{% trans 'Prédications' %}</li>
+        </ol>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <div class="container section">
+    <div class="row">
+      
+    
+      
+      <!-- Highlited Rows Table -->
+      <div class="col-md-offset-0 col-lg-12 ws-m">
+         <nav class="blog-pagination">
+        <ul class="pagination">
+          {% if predications.has_previous %}
+          <li>
+            <a href="?page={{ predications.previous_page_number }}" aria-label="Previous">
+              <span aria-hidden="true"><i class="fa fa-angle-double-left"></i></span>
+            </a>
+          </li>
+          {% endif %}
+          {% for pg in predications.paginator.page_range %}
+                    {% if predications.number == pg %}
+                    <li><a class="acti" href="?page={{ pg }}">{{ pg }}</a></li>
+                    {% else %}
+                    <li><a href="?page={{ pg }}">{{ pg }}</a></li>
+                    {% endif %}
+          {% endfor %}
+
+          {% if predications.has_next %}
+          <li>
+            <a href="?page={{ predications.next_page_number }}" aria-label="Next">
+              <span aria-hidden="true"><i class="fa fa-angle-double-right"></i></span>
+            </a>
+          </li>
+          {% endif %}
+          
+        </ul>
+      </nav>
+      
+        
+        <table class="table table-row-highlight">
+          <thead>
+            <tr>
+              <th>{% trans 'Chapitre' %}</th>
+              <th>{% trans 'Titre' %}</th>
+              <th>{% trans 'Télécharger' %}</th>
+              <th>{% trans 'Ecouter' %}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for pred in predications %}           
+            <tr>
+              <td data-label><a href="{% url 'predications-details' lang pred.id %}" class="fott">{{ pred.chapitre }}</a></td>
+              <td data-label> <a href="{% url 'predications-details'  lang pred.id %}" class="fott">{{ pred.titre }}</a></td>
+              <td data-label><a href="{% url 'predications-details' lang pred.id %}" class="fott">PDF</a> </td>
+              <td data-label style="padding-top: 0px;padding-bottom: 0px;">
+                <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url={{ pred.lien_audio_cloud }}&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div> </td>
+            </tr>
+            {% endfor %}
+        
+            
+
+            </tbody>
+        </table><!-- / .table -->
+        <div class="row">
+            <nav class="blog-pagination text-center">
+              <ul class="pagination">
+                {% if predications.has_previous %}
+                <li>
+                  <a href="?page={{ predications.previous_page_number }}" aria-label="Previous">
+                    <span aria-hidden="true"><i class="fa fa-angle-double-left"></i></span>
+                  </a>
+                </li>
+                {% endif %}
+                {% for pg in predications.paginator.page_range %}
+                          {% if predications.number == pg %}
+                          <li><a class="acti" href="?page={{ pg }}">{{ pg }}</a></li>
+                          {% else %}
+                          <li><a href="?page={{ pg }}">{{ pg }}</a></li>
+                          {% endif %}
+                {% endfor %}
+      
+                {% if predications.has_next %}
+                <li>
+                  <a href="?page={{ predications.next_page_number }}" aria-label="Next">
+                    <span aria-hidden="true"><i class="fa fa-angle-double-right"></i></span>
+                  </a>
+                </li>
+                {% endif %}
+                
+              </ul>
+            </nav>
+          </div><!-- / .row -->
+      </div><!-- / .col-md-6 -->
+
+      
+    
+    </div><!-- / .row -->
+  </div><!-- / .container -->
+{% endblock content %} 

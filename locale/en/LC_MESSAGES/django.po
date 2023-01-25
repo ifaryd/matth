@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: app/templates/brouillons.html:28
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-28 11:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/templates/base.html:10 app/templates/index.html:24
+msgid "Prophète Kacou Philippe"
+msgstr "Prophet Kacou Philippe"
+
+#: app/templates/base.html:10
+msgid "Portail du Ciel"
+msgstr "Heaven Portal"
+
+#: app/templates/base.html:87 app/templates/contacts.html:19
+#: app/templates/galeries.html:19 app/templates/predications-details.html:21
+#: app/templates/predications-lists.html:21
+#: app/templates/predications-videos.html:22
+msgid "Accueil"
+msgstr "Home"
+
+#: app/templates/base.html:95 app/templates/base.html:208
+#: app/templates/predications-details.html:19
+#: app/templates/predications-lists.html:19
+#: app/templates/predications-lists.html:22
+#: app/templates/predications-videos.html:20
+#: app/templates/predications-videos.html:23
+msgid "Prédications"
+msgstr "Sermons"
+
+#: app/templates/base.html:97 app/templates/base.html:210
+#: app/templates/predications-details.html:22
+msgid "Prédications écrites"
+msgstr "Text sermons"
+
+#: app/templates/base.html:98 app/templates/base.html:211
+msgid "Prédications audios"
+msgstr "Audios sermons"
+
+#: app/templates/base.html:99 app/templates/base.html:212
+#: app/templates/predications-videos.html:37
+msgid "Prédications vidéos"
+msgstr "Videos sermons"
+
+#: app/templates/base.html:108
+msgid "Médias"
+msgstr "Medias"
+
+#: app/templates/base.html:110 app/templates/base.html:228
+msgid "Presse écrites"
+msgstr "In the press"
+
+#: app/templates/base.html:111
+msgid "Emission radio"
+msgstr "Radio"
+
+#: app/templates/base.html:112
+msgid "emissions-tv"
+msgstr "Tv"
+
+#: app/templates/base.html:121
+msgid "Galérie"
+msgstr "Pictures"
+
+#: app/templates/base.html:127 app/templates/base.html:238
+msgid "Ressources"
+msgstr "Resources"
+
+#: app/templates/base.html:129 app/templates/base.html:239
+msgid "Témoignages"
+msgstr "Testimonies"
+
+#: app/templates/base.html:130 app/templates/base.html:240
+#: app/templates/index.html:79
+msgid "Actualités"
+msgstr "News"
+
+#: app/templates/base.html:131 app/templates/base.html:241
+msgid "Les pépites d'or"
+msgstr "Golden nuggets"
+
+#: app/templates/base.html:132
+msgid "Aides pour la lectures"
+msgstr "Assitance for sermons"
+
+#: app/templates/base.html:133
+msgid "Logiciels"
+msgstr "Important software"
+
+#: app/templates/base.html:141
+msgid "Adorations"
+msgstr "Worship"
+
+#: app/templates/base.html:143
+msgid "Louanges"
+msgstr "Praises"
+
+#: app/templates/base.html:144
+msgid "Mélodies"
+msgstr "Melodies"
+
+#: app/templates/base.html:153
+msgid "Le cri de minuit dans monde"
+msgstr "The midnight cry in the world"
+
+#: app/templates/base.html:160 app/templates/base.html:250
+msgid "Contacts"
+msgstr "Contacts"
+
+#: app/templates/base.html:226
+msgid "Medias"
+msgstr "Medias"
+
+#: app/templates/base.html:229
+msgid "Emissions radio"
+msgstr "Radio"
+
+#: app/templates/base.html:230
+msgid "Emissions TV"
+msgstr "Tv"
+
+#: app/templates/base.html:231
+msgid "Autres vidéos"
+msgstr "Other videos"
+
+#: app/templates/base.html:242
+msgid "Aides pour la lecture"
+msgstr "Assitance for sermons"
+
+#: app/templates/base.html:243
+msgid "Logiciels importants"
+msgstr "Importants software"
+
+#: app/templates/base.html:251
+msgid "Téléphone Mobile"
+msgstr "Phone"
+
+#: app/templates/base.html:252 app/templates/base.html:253
+msgid "Apôtre"
+msgstr "Apostle"
+
+#: app/templates/base.html:256
+msgid "Adresse postale"
+msgstr "Postal Address"
+
+#: app/templates/base.html:257
+msgid "Côte d'Ivoire"
+msgstr "Ivory Coast"
+
+#: app/templates/base.html:284
+msgid "Monter"
+msgstr "Ascend"
+
+#: app/templates/contacts.html:17
+msgid "Nous contacter"
+msgstr "Contact us"
+
+#: app/templates/contacts.html:20
+msgid "contacts"
+msgstr "Contacts"
+
+#: app/templates/contacts.html:29 app/templates/index.html:242
+msgid "Contactez nous"
+msgstr "Contacts us"
+
+#: app/templates/contacts.html:30 app/templates/index.html:243
+msgid "Vous avez une question ?"
+msgstr "You have a question ?"
+
+#: app/templates/contacts.html:52 app/templates/index.html:265
+msgid "Téléphone"
+msgstr "Phone"
+
+#: app/templates/contacts.html:59 app/templates/index.html:272
+msgid "Addresse Postale"
+msgstr "Postal Address"
+
+#: app/templates/contacts.html:98 app/templates/index.html:311
+msgid "Entrer votre nom"
+msgstr "Enter your name"
+
+#: app/templates/contacts.html:99 app/templates/index.html:312
+msgid "Nom"
+msgstr "Name"
+
+#: app/templates/contacts.html:105 app/templates/index.html:318
+msgid "Entrer votre email"
+msgstr ""
+
+#: app/templates/contacts.html:116 app/templates/index.html:329
+msgid "Votre message"
+msgstr "Your message"
+
+#: app/templates/contacts.html:117 app/templates/index.html:330
+msgid "Message"
+msgstr "Message"
+
+#: app/templates/contacts.html:120 app/templates/index.html:333
+msgid "Envoyez"
+msgstr "Send"
+
+#: app/templates/galeries.html:17 app/templates/galeries.html:20
+msgid "Galeries"
+msgstr "Pictures"
+
+#: app/templates/galeries.html:29
+msgid "Galeries Photos"
+msgstr "Pictures"
+
+#: app/templates/galeries.html:30
+msgid "Quelques images du message"
+msgstr "Some pictures of the message"
+
+#: app/templates/index.html:23
+msgid "Le cri de minuit"
+msgstr "The midnight cry"
+
+#: app/templates/index.html:23
+msgid " à retentit"
+msgstr "to sounds"
+
+#: app/templates/index.html:25
+msgid "Les prédications"
+msgstr "Sermons"
+
+#: app/templates/index.html:32
+msgid "Défiler"
+msgstr "Scroll"
+
+#: app/templates/index.html:49
+msgid "Bienvenue sur le site officiel du Prophète Kacou Philippe"
+msgstr "Welcome to the official website of Prophet Kacou Philippe"
+
+#: app/templates/index.html:50
+msgid "Les paroles de la vie éternelle aujourd'hui"
+msgstr "The Words of Eternal Life Today"
+
+#: app/templates/index.html:54
+msgid ""
+"Comme les prophètes de la Bible, en avril 1993, un homme qui n'avait jamais "
+"été dans une église reçoit en vision, la visitation d'un Ange qui le "
+"commissionne pour un Message destiné au Salut de l'humanité en "
+"accomplissement de "
+msgstr ""
+"Like the prophets of the Bible, In April 1993, a man who had never been in a "
+"church receives in a vision, the visitation of an Angel who commissions him "
+"for a Message destined to the entire earth in fulfillment of the ministry of "
+
+#: app/templates/index.html:54
+msgid "Matth.25:6"
+msgstr "Matthew 25:6"
+
+#: app/templates/index.html:54
+msgid "  et d'"
+msgstr "and"
+
+#: app/templates/index.html:54
+msgid "Apoc.12:14"
+msgstr "Revelation 12:14"
+
+#: app/templates/index.html:80
+msgid "Le message du Prophète Kacou Philippe"
+msgstr "The message of Prophet Kacou Philippe"
+
+#: app/templates/predications-lists.html:70
+msgid "Chapitre"
+msgstr "Chapter"
+
+#: app/templates/predications-lists.html:71
+msgid "Titre"
+msgstr "Title"
+
+#: app/templates/predications-lists.html:72
+msgid "Télécharger"
+msgstr "Download"
+
+#: app/templates/predications-lists.html:73
+msgid "Ecouter"
+msgstr "Listen"
+
+#: app/templates/predications-videos.html:38
+msgid "Des vidéos du Prophète KACOU Philippe"
+msgstr "Videos of the Prophet KACOU Philippe"
