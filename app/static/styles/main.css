@@ -1569,13 +1569,13 @@ input[class="btn-ghost"]:after {
 .btn-text:visited:hover, .btn-text-light:visited:hover {
   color: #7b3d1a;
   background: none;
-  border: 2px solid #7b3d1a111;
+  border: 2px solid #7b3d1a;
 }
 
 .btn-text:hover, .btn-text-light:hover {
   color: #7b3d1a;
   background: none;
-  border: 2px solid #7b3d1a111;
+  border: 2px solid #7b3d1a;
 }
 
 .btn-text:focus, .btn-text-light:focus {
@@ -1696,11 +1696,11 @@ input[class="btn-ghost-light"]:hover {
 .pagination li a:hover {
   color: #7b3d1a;
   background: none;
-  border: 2px solid #7b3d1a111;
+  border: 2px solid #7b3d1a;
 }
 
 .pagination .active a {
-  border: 2px solid #7b3d1a111;
+  border: 2px solid #7b3d1a;
   background: none;
   color: #7b3d1a;
 }
@@ -1862,7 +1862,7 @@ fieldset[disabled] .form-control:hover {
 .faq-contact-links a:hover {
   color: #7b3d1a;
   padding-bottom: 1px;
-  border-bottom: 1px solid #7b3d1a111;
+  border-bottom: 1px solid #7b3d1a;
 }
 
 /* --------------------------------------------------
@@ -3379,7 +3379,7 @@ fieldset[disabled] .form-control:hover {
 .ft-centered .ft-circle-frame-dark:hover span,
 .ft-x .ft-circle-frame-dark:hover span,
 .ft-y .ft-circle-frame-dark:hover span, .ft-centered .ft-square-frame-dark:hover span, .ft-x .ft-square-frame-dark:hover span, .ft-y .ft-square-frame-dark:hover span, .ft-centered .ft-circle-frame-dark:hover i, .ft-x .ft-circle-frame-dark:hover i, .ft-y .ft-circle-frame-dark:hover i, .ft-centered .ft-square-frame-dark:hover i, .ft-x .ft-square-frame-dark:hover i, .ft-y .ft-square-frame-dark:hover i {
-  border-color: #7b3d1a111;
+  border-color: #7b3d1a;
 }
 
 .ft-centered .ft-circle-frame-dark span,
@@ -3706,7 +3706,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-tabs .tabs-list .active a {
-  border-left: 10px solid #7b3d1a111;
+  border-left: 10px solid #7b3d1a;
   background: #f4f4f4;
 }
 
@@ -6713,7 +6713,7 @@ fieldset[disabled] .form-control:hover {
 
 .sidebar .categories-widget .widget-item a:hover {
   padding-bottom: 3px;
-  border-bottom: 1px solid #7b3d1a111;
+  border-bottom: 1px solid #7b3d1a;
   color: #7b3d1a;
 }
 
@@ -7229,7 +7229,7 @@ form .input-error-2:focus {
 .login-1 .panel-group .panel .panel-collapse .panel-body .form-login .forget-pass-link:hover {
   color: #7b3d1a;
   padding-bottom: 1px;
-  border-bottom: 1px solid #7b3d1a111;
+  border-bottom: 1px solid #7b3d1a;
 }
 
 .login-1 .panel-group .top-panel .panel-heading {
@@ -7319,7 +7319,7 @@ form .input-error-2:focus {
 .login-2 .bg-overlay .form-wrapper .form-content .forget-pass-link:hover {
   color: #7b3d1a;
   padding-bottom: 1px;
-  border-bottom: 1px solid #7b3d1a111;
+  border-bottom: 1px solid #7b3d1a;
 }
 
 .login-2 .bg-overlay .form-wrapper .form-content .cards-header {
@@ -7418,7 +7418,7 @@ form .input-error-2:focus {
 .login-2 .bg-overlay .email-signup:hover {
   padding-bottom: 0;
   margin-bottom: 3px;
-  border-bottom: 1px solid #7b3d1a111;
+  border-bottom: 1px solid #7b3d1a;
 }
 
 /* --------------------------------------------------
@@ -7766,7 +7766,7 @@ form .input-error-2:focus {
 }
 
 .scroller-dark:hover {
-  color: #7b3d1a111;
+  color: #7b3d1a;
 }
 
 .scroller-dark .scroller-text {
@@ -9648,7 +9648,7 @@ form .input-error-2:focus {
 
 .shop-sidebar .categories-widget .widget-item a:hover, .shop-sidebar-vertical .categories-widget .widget-item a:hover {
   padding-bottom: 3px;
-  border-bottom: 1px solid #7b3d1a111;
+  border-bottom: 1px solid #7b3d1a;
   color: #7b3d1a;
 }
 
